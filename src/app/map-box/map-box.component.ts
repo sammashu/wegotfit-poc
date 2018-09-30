@@ -18,7 +18,7 @@ export class MapBoxComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.initializeMap()
+    this.initializeMap();
   }
 
   private initializeMap() {
@@ -29,11 +29,11 @@ export class MapBoxComponent implements OnInit {
         this.lng = position.coords.longitude;
         this.map.flyTo({
           center: [this.lng, this.lat]
-        })
+        });
       });
     }
 
-    this.buildMap()
+    this.buildMap();
 
   }
 
