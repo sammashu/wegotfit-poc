@@ -1,0 +1,18 @@
+.map-menu{
+  width: 100%;
+  background: darkgrey;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background: dimgray;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
