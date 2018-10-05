@@ -29,7 +29,6 @@ body{background-color: #fff;}
   background: rgba(255, 255, 255, 0.25); /* social icon hover background color */
   color: #fff; /* social icon hover color */
 }
-.clear { clear: both; height: 60px; }
 
 .footer {
   position: absolute;
